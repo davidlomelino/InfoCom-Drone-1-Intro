@@ -1,19 +1,24 @@
 # LP2 Drone Project - Lab 1
-Intall the requied Python packages
+Intall the requied Python packages if not done already
 ```
-pip3 install -r requirements.txt
+sudo apt update
+sudo apt install python3-socketio
+sudo apt install python3-engineio
+sudo apt install python3-flask-socketio
+sudo apt install python3-flask-cors
+
 ```
-Go to `/webserver`, run the flask server:
+Go to `/webserver` in a terminal window, run the flask server:
 ```
 export FLASK_APP=build.py
-export FLASK_ENV=development
+export FLASK_DEBUG=1
 flask run
 ```
-Go to `/pi`, run the Pi controller:
+Go to `/pi` in another terminal window, run the Pi controller:
 ```
 python3 pi_controller.py
 ```
-In the terminal running `pi_controller.py`, use 'wasd' to move the 'drone' on the website. 
+In the terminal running `pi_controller.py`, use the keys 'wasd' to move the 'drone' on the website. 
 
 Note: Don't user `python3 build.py` to run the webserver, since this does not porvide all the functionalities requied by the application.
 
