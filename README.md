@@ -1,5 +1,5 @@
 # LP2 Drone Project - Lab 1
-Intall the requied Python packages if not done already
+Intall the required Python packages if not done already (some packages might already be installed):
 ```
 sudo apt update
 sudo apt install python3-socketio
@@ -20,5 +20,5 @@ python3 pi_controller.py
 ```
 In the terminal running `pi_controller.py`, use the keys 'wasd' to move the 'drone' on the website. 
 
-Note: Don't user `python3 build.py` to run the webserver, since this does not porvide all the functionalities requied by the application.
+Note: Don't use `python3 build.py` to run the webserver, since this does not porvide all the functionalities required by the application.
 
