@@ -1,5 +1,5 @@
 # LP2 Drone Project - Lab 1
-Intall the required Python packages if not done already (some packages might already be installed):
+Install the required Python packages if not done already (some packages might already be installed):
 ```
 sudo apt update
 sudo apt install python3-socketio
