@@ -1,4 +1,4 @@
-# LP2 Drone Project - Lab 1
+# InfoCom Drone Project - Part 1 - Drone simulation on Raspberry Pi
 Install the required Python packages if not done already (some packages might already be installed):
 ```
 sudo apt update
